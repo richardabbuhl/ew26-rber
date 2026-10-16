@@ -29,7 +29,7 @@ function shell(page, route) {
   root.innerHTML = `
     <div class="app-shell">
       <aside class="sidebar ${state.mobileNavOpen ? "sidebar-open" : ""}">
-        <a class="brand" href="#/"><span class="brand-mark">R</span><span>rber<span class="brand-period">.</span></span></a>
+        <a class="brand" href="#/"><img class="brand-mark" src="./logo/rber-logo.jpg" alt=""><span>rber<span class="brand-period">.</span></span></a>
         <div class="workspace-select"><span class="workspace-glyph">R</span><span class="workspace-copy"><strong>Rabobank</strong><small>Product studio</small></span><span>⌄</span></div>
         <div class="nav-label">WORKSPACE</div>
         <nav class="primary-nav" aria-label="Main navigation">

@@ -1,0 +1,20 @@
+.brand-mark {
+  object-fit: cover;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.center-mark {
+  width: 84px;
+  height: 84px;
+  border: 4px solid #fff;
+  border-radius: 7px;
+  background: #fff url("../logo/rber-logo.jpg") center / cover no-repeat;
+  box-shadow: 0 0 35px #c6f27938;
+  color: transparent;
+  font-size: 0;
+}
+
+.visual-center > strong {
+  display: none;
+}

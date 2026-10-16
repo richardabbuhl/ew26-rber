@@ -6,5 +6,6 @@ await rm(outputDirectory, { recursive: true, force: true });
 await mkdir(outputDirectory, { recursive: true });
 await cp(new URL("../index.html", import.meta.url), new URL("index.html", outputDirectory));
 await cp(new URL("../src/", import.meta.url), new URL("src/", outputDirectory), { recursive: true });
+await cp(new URL("../logo/", import.meta.url), new URL("logo/", outputDirectory), { recursive: true });
 
 console.log(`Static site copied to ${new URL("../dist/", import.meta.url).pathname}`);
