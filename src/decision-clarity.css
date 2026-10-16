@@ -1,0 +1,325 @@
+.ui-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
+  vertical-align: -0.15em;
+}
+
+.nav-link > .ui-icon,
+.icon-button > .ui-icon {
+  width: 17px;
+  height: 17px;
+}
+
+.status-tag > .ui-icon,
+.provider-rating > .ui-icon,
+.market-due > .ui-icon,
+.compare-link > .ui-icon,
+.check-line > .ui-icon {
+  width: 13px;
+  height: 13px;
+}
+
+.metric-icon > .ui-icon,
+.meta-icon > .ui-icon,
+.requirement-item > .ui-icon,
+.proposal-icon > .ui-icon,
+.selected-outcome-icon > .ui-icon,
+.gate-summary-icon > .ui-icon {
+  width: 17px;
+  height: 17px;
+}
+
+.sidebar-status-top > .ui-icon {
+  width: 13px;
+  height: 13px;
+}
+
+.profile-button > .ui-icon {
+  width: 16px;
+  height: 16px;
+  color: #879287;
+}
+
+.visual-node > .ui-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.text-link > .ui-icon,
+.provider-footer > .ui-icon,
+.button > .ui-icon,
+.back-link > .ui-icon,
+.round-link > .ui-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.recommendation-mark > .ui-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.mortgage-journey {
+  margin: 14px 0 23px;
+  padding: 16px 18px 17px;
+  border: 1px solid #d9dfd5;
+  background: #e9ede4;
+}
+
+.journey-heading,
+.journey-heading > div {
+  display: flex;
+}
+
+.journey-heading {
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 14px;
+}
+
+.journey-heading > div {
+  flex-direction: column;
+  gap: 4px;
+}
+
+.journey-heading h2,
+.score-explainer-heading h2 {
+  margin: 0;
+  color: #263128;
+  font: 600 17px/1.25 var(--display);
+}
+
+.journey-heading p,
+.score-explainer-heading p {
+  margin: 0;
+  color: #788379;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.journey-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #d3dbcf;
+}
+
+.journey-steps li {
+  min-width: 0;
+  border-right: 1px solid #d3dbcf;
+}
+
+.journey-steps li:last-child {
+  border-right: 0;
+}
+
+.journey-steps a {
+  display: grid;
+  grid-template-columns: 22px 25px minmax(0, 1fr) 15px;
+  align-items: center;
+  gap: 8px;
+  min-height: 58px;
+  padding: 7px 10px 4px 0;
+}
+
+.journey-number {
+  color: #879184;
+  font: 9px var(--mono);
+}
+
+.journey-icon {
+  display: grid;
+  width: 25px;
+  height: 25px;
+  place-items: center;
+  border-radius: 4px;
+  color: #5e7649;
+  background: #dce7d2;
+}
+
+.journey-icon > .ui-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.journey-step-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.journey-step-copy strong {
+  color: #39463a;
+  font-size: 11px;
+}
+
+.journey-step-copy small {
+  overflow: hidden;
+  color: #818c80;
+  font-size: 9px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.journey-arrow {
+  width: 13px;
+  height: 13px;
+  color: #879483;
+}
+
+.score-explainer {
+  margin: 16px 0 25px;
+  padding: 17px 18px;
+  border: 1px solid #d9dfd5;
+  background: #e9ede4;
+}
+
+.score-explainer-heading {
+  display: grid;
+  justify-items: start;
+  gap: 6px;
+  max-width: 720px;
+  margin-bottom: 14px;
+}
+
+.score-factor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 7px;
+}
+
+.score-factor {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 6px 9px;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #dce2d8;
+  background: #f7f8f3;
+}
+
+.score-factor > span {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: #4b584b;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.score-factor > span small {
+  color: #8b9689;
+  font-size: 9px;
+  font-weight: 400;
+}
+
+.score-factor > strong {
+  color: #364537;
+  font: 500 15px var(--display);
+}
+
+.score-factor > strong small {
+  margin-left: 2px;
+  color: #899587;
+  font: 8px var(--mono);
+}
+
+.score-factor > i {
+  grid-column: 1 / -1;
+  color: #7d897b;
+  font-size: 9px;
+  font-style: normal;
+}
+
+.score-evidence {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 16px;
+  margin-top: 11px;
+  padding: 11px 12px;
+  border-left: 3px solid #c0d69f;
+  background: #f0f3ec;
+}
+
+.score-evidence h3 {
+  margin: 0 0 4px;
+  color: #4b584b;
+  font: 600 10px var(--display);
+}
+
+.score-evidence p,
+.score-evidence span {
+  margin: 0;
+  color: #7f8b7e;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.score-evidence span {
+  display: block;
+  margin-top: 5px;
+  color: #687667;
+}
+
+@media (max-width: 760px) {
+  .journey-heading {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .journey-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .journey-steps li:nth-child(2) {
+    border-right: 0;
+  }
+
+  .journey-steps li:nth-child(n + 3) {
+    border-top: 1px solid #d3dbcf;
+  }
+
+  .journey-steps a {
+    padding-right: 8px;
+  }
+
+  .score-evidence {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .mortgage-journey,
+  .score-explainer {
+    padding: 13px 11px;
+  }
+
+  .journey-steps a {
+    grid-template-columns: 18px 22px minmax(0, 1fr);
+    gap: 5px;
+  }
+
+  .journey-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .journey-step-copy small {
+    white-space: normal;
+  }
+
+  .journey-arrow {
+    display: none;
+  }
+
+  .score-factor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
