@@ -1,0 +1,98 @@
+.workspace-copy strong,
+.profile-copy strong {
+  font-size: 12px;
+}
+
+.workspace-copy small,
+.profile-copy small,
+.topbar-environment,
+.nav-key,
+.nav-count,
+.sidebar-status-top,
+.sidebar-status-bottom,
+.breadcrumbs,
+.eyebrow,
+.welcome-line,
+.hero-footnote,
+.page-footer,
+.status-tag,
+.provider-line-copy small,
+.provider-card-type,
+.network-count,
+.section-count,
+.compare-metadata,
+.market-list-heading,
+.local-state-note {
+  font-size: 10px;
+}
+
+.nav-label,
+.nav-link,
+.breadcrumbs,
+.metric-top,
+.spec-row-main strong,
+.spec-row-budget small,
+.provider-line-copy strong,
+.marketplace-stat strong,
+.market-card-title p,
+.market-budget small,
+.market-due,
+.compare-link,
+.provider-card > p,
+.provider-card-metrics small,
+.strength-list span,
+.meta-item small,
+.meta-item strong,
+.requirement-item strong,
+.check-line,
+.context-row,
+.bid-table tbody th,
+.bid-table tbody td,
+.selected-outcome-copy strong,
+.selected-outcome-copy small,
+.empty-comparison > p {
+  font-size: 11px;
+}
+
+.page-title-row p,
+.detail-heading > div > p,
+.hero-copy > p {
+  font-size: 13px;
+}
+
+.metric > small,
+.spec-row-main small,
+.marketplace-stat small,
+.provider-card-metrics strong,
+.quality-columns h3,
+.proposal-panel > p,
+.recommendation-copy > p,
+.recommendation-stats i,
+.selected-outcome-price small {
+  font-size: 9px;
+}
+
+.search-field input,
+.segmented-control button,
+.provider-card h3,
+.market-card-title h3,
+.market-budget strong,
+.requirement-item strong,
+.tech-panel h2,
+.proposal-panel h2,
+.recommendation-copy h2 {
+  font-size: 12px;
+}
+
+.recommendation-stats strong {
+  font-size: 16px;
+}
+
+@media (max-width: 430px) {
+  .spec-row-main small,
+  .spec-row .status-tag,
+  .segmented-control button,
+  .provider-card-metrics small {
+    font-size: 9px;
+  }
+}
