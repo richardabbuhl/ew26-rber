@@ -100,3 +100,9 @@ Requirements:
 - OAuth2 Authentication
 - Mobile Friendly
 -
+
+## Deploy to GitHub Pages
+
+The Pages workflow builds the static site and deploys it whenever changes are pushed to `main`. To enable it, open the repository's **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. You can also start a deployment from the **Actions** tab with **Deploy to GitHub Pages → Run workflow**.
+
+The published project site will be available at `https://richardabbuhl.github.io/ew26-rber/` after the first successful deployment.

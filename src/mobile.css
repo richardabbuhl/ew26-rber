@@ -1,0 +1,4 @@
+@media (max-width: 720px) {
+  .visual-caption { display: none; }
+  .node-proof { right: 7%; bottom: 8%; }
+}
